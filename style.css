@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #d2e7e7;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    width: 380px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px black;
+    background: rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+}
+
+.container{
+    padding: 16px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border: solid #ccc;   
+    border-radius: 15px;
+}
+input[type=text]:focus, input[type=password]:focus{
+    outline: none;
+    background-color: #d3d3d3;
+}
+
+#forgotPass{
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+    color: #5f3636;
+    cursor: pointer;
+}
+
+#forgotPass:hover{
+    color: #eee45d;
+}
+
+#loginBtn{
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px, 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #eb3349 ,#f45c43);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    border-radius: 10px;
+}
+#loginBtn:hover{
+    background-image: linear-gradient(to right, #f45c43, #eb3349);
+}
+.member{
+    padding: 16px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+#signup-link{
+    color: #f45c43;
+    text-decoration: none;
+    cursor: pointer;
+}
+#signup-link:hover{
+    color: #6c818f;
+}
